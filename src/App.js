@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className='App'>
       <SearchBar />
-      <Posts />
+      <Posts likePost={likePost} posts={posts}/>
     </div>
   );
 };
